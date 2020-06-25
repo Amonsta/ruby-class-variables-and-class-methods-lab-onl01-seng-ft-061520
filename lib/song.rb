@@ -41,6 +41,7 @@ class Song
   end 
   
   def self.genre_count
+    genre_count = {}
     @@genre_count.each do |name, num|
       if @genre.name = name 
         
