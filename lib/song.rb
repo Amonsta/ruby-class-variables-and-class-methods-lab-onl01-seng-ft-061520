@@ -4,6 +4,7 @@ each song has a name, artist and genre.
 need a class variable and method to keep track of all the songs it creates (Song.count)
 need an array of artists
 need an array of genres 
+no duplicates == .uniq
 also need a count for each genre
 same for artist count
 =end
@@ -63,7 +64,6 @@ class Song
     end  
     artist_count
   end 
-  
   
   
 end
